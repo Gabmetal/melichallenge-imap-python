@@ -10,3 +10,11 @@ EMAIL_PASSWORD: "mailpassword"
 ```bash
 docker-compose up
 ```
+## To inspect DB
+Open in browser [Adminer](http://localhost:8080)
+```yml
+MYSQL_HOST: "mysql"
+MYSQL_DB: "MeliChallenge"
+MYSQL_USER: "root"
+MYSQL_PASSWORD: "rootpassword"
+```
